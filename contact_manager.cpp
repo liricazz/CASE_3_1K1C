@@ -461,7 +461,7 @@ int main(int argc, char* argv[]) {
         printMainMenu();
         choice = inputLine("Ваш выбор: ");
 
-        if      (choice == "1") 3addContact();
+        if      (choice == "1") addContact();
         else if (choice == "2") viewAllContacts();
         else if (choice == "3") viewContact();
         else if (choice == "4") editContact();
